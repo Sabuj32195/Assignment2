@@ -35,8 +35,11 @@ a{
     padding:30px;
     margin-top:20px;
 }
-.writing h1,p{
+.writing h1{
     color:white;
+}
+.writing p{
+    color:gray;
 }
 .header-image{
     width:50%;
