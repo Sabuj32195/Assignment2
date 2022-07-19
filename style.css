@@ -160,6 +160,7 @@ a{
         width:200px;
         margin:70px auto;
     }
+    
 }
 @media only screen and (max-width: 576px){
     .blog{
@@ -181,6 +182,7 @@ a{
     #view{
         display:none;
     }
+    
 
 }
 /*-----------footer----------*/
@@ -209,6 +211,24 @@ hr{
 }
 .footer-nav a{
     color:white;
+    padding:8px;
+}
+.icons{
+    text-align: center;
+    margin-bottom: 10px;;
+}
+.icons i{
+    font-size:30px;
+    color:white;
+    padding:10px;
+    background-color: blue;
+    border-radius: 50%;
+    margin:15px;
+}
+.icons i:hover{
+    background-color:azure;
+    color:black;
+    transition:1s ease;
 }
 
 
@@ -221,4 +241,30 @@ hr{
         padding:20px;
         text-decoration: none;
     }
+}
+
+/*--------Match------*/
+#para{
+    color:gray;
+
+
+}
+.all-match{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 15px;
+    column-gap: 20px;
+}
+.match{
+    width:100%;
+    text-align: center;
+    padding:20px;
+    border: 1px solid gray;
+    background-color: aqua;
+    border-radius: 8px;
+}
+.match-banner{
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
 }
