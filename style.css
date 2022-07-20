@@ -104,8 +104,11 @@ i{
 
 .blog{
     background-color:black;
+    width:300px;
     height: 180px;
     border-radius: 10px;
+    margin-right:10px;
+    overflow: hidden;
 
 }
 
@@ -130,6 +133,9 @@ i{
     background-color: white;
     color:black;
     border:1px solid gray;
+}
+.blog-item{
+    width:100%;
 }
 .blog-banner{
     width:100%;
@@ -163,13 +169,14 @@ i{
 /*--------------responsive blog part----------*/
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 992px){
     .blog-area{
         display:flex;
         flex-direction: column;   
     }
     .blog{
-        background-color:white;;
+        background-color:white;
+        width:100%;
     }
     .link{
         display:flex;
@@ -192,7 +199,7 @@ i{
     }
     
 }
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 688px){
     .blog{
         margin-bottom:80px;
     }
@@ -262,7 +269,7 @@ hr{
 }
 
 /*--------------responsive footer part----------*/
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 688px){
     .footer-nav{
         flex-direction: column;
         text-align: center;
